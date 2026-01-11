@@ -1,4 +1,4 @@
-# Codeforces 149A – Business trip
+# Problem 149A – Business trip
 
 ## Problem Summary
 Petya can water a flower in any of the 12 months of the year.  
