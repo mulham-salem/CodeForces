@@ -1,6 +1,7 @@
 # Problem 40A – Find Color
 
 ## Problem Summary
+
 The magic clock of Berland can be represented as an infinite Cartesian plane with the origin **(0,0)** as its center.  
 The plane is colored in alternating **black** and **white** circular regions around the origin.
 

@@ -1,6 +1,7 @@
 # Problem 42A – Guilty — to the kitchen!
 
 ## Problem Description
+
 Volodya has to cook **borscht** according to a recipe with `n` ingredients.  
 Each ingredient `i` must be used in proportion `a[i]` litres per unit of soup.  
 Volodya has `b[i]` litres of each ingredient available, and a pan of maximum volume `V`.  
@@ -10,19 +11,22 @@ Your task is to determine the **maximum amount of soup** Volodya can cook, respe
 ---
 
 ## Input
+
 - First line: two integers `n` and `V` — number of ingredients and maximum pan volume.  
 - Second line: `n` integers `a[i]` — proportion of each ingredient.  
 - Third line: `n` integers `b[i]` — available amount of each ingredient.
 
 ### Constraints
-- \(1 <= n <= 20\)  
-- \(1 <= V <= 10000\)  
-- \(1 <= a[i] <= 100\)  
-- \(0 <= b[i] <= 100\)
+
+- \(1 ≤ n ≤ 20\)  
+- \(1 ≤ V ≤ 10000\)  
+- \(1 ≤ a[i] ≤ 100\)  
+- \(0 ≤ b[i] ≤ 100\)
 
 ---
 
 ## Output
+
 - One real number: the maximum volume of soup Volodya can cook.  
 - The answer must have **relative or absolute error less than \(10^{-4}\)**.
 
@@ -35,7 +39,9 @@ Your task is to determine the **maximum amount of soup** Volodya can cook, respe
 **Input**
 
 ```
-1 100 1 40
+1 100 
+1 
+40
 ```
 
 **Output**
@@ -49,7 +55,9 @@ Your task is to determine the **maximum amount of soup** Volodya can cook, respe
 **Input**
 
 ```
-2 100 1 1 25 30
+2 100 
+1 1 
+25 30
 ```
 
 **Output**
@@ -63,7 +71,9 @@ Your task is to determine the **maximum amount of soup** Volodya can cook, respe
 **Input**
 
 ```
-2 100 1 1 60 60
+2 100
+1 1 
+60 60
 ```
 
 **Output**
@@ -104,4 +114,5 @@ total_volume = x_max * sum(a[i] for i = 0..n-1) answer = min(total_volume, V)
 
 print answer with high precision
 ```
+
 ---
