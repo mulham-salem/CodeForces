@@ -1,6 +1,6 @@
 # Problem 55A – Flea travel
 
-## Problem Statement
+## Problem Summary
 
 A flea is sitting on one of the `n` hassocks arranged in a circle. After minute `k`, the flea jumps over `k-1` hassocks clockwise. For example, after the first minute the flea jumps to the neighboring hassock, after the second minute it jumps over one hassock, and so on.
 
