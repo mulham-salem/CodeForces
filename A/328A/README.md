@@ -76,6 +76,13 @@ ELSE:
 
 ---
 
+## Time Complexity
+
+- **Time:** `O(1)` — only a constant number of arithmetic operations.
+- **Space:** `O(1)` — no extra memory used.
+
+---
+
 ## Notes
 
 - Use `long long` for multiplication to avoid overflow.
